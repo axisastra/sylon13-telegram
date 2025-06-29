@@ -2,8 +2,6 @@ const TelegramBot = require("node-telegram-bot-api");
 const axios = require("axios");
 const fs = require("fs");
 
-const TELEGRAM_TOKEN = "8076486177:AAFEu2n4nDskLBMwfu33M9YRFR8Ra8QcVHA";
-const OPENROUTER_API_KEY = "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";
 const MODEL = "meta-llama/llama-3-70b-instruct";
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
